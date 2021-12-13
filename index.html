@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>  
+
+    <div class="scores">
+        <div>
+            <p class="ptag">Dealer Hand</p>    
+            <p class="dealerTot"></p> 
+        </div>
+        <div>
+            <p class="ptag">Player Hand</p>
+            <p class="playerTot"></p>
+        </div>
+    </div>
+
+    <div class="dealerHand hand"></div>
+
+    <p class="winMsg"></p>
+
+    <div class="buttons">
+        <button type="button" class="stand">Stand</button>
+        <button type="button" class="hit">Hit</button>
+        <button type="button" class="ace hiddenButton">Use Ace(+10)</button>
+
+        <button type="button" class="playAgain hiddenButton">Play</button>
+    </div>
+
+    <div class="playerHand hand"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

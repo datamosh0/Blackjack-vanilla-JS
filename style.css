@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #008c44;
+    transform: scale(.95);
+}
+
+p{
+    padding: 4px;
+}
+.hand {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    max-width: 226px;
+    max-height: 314px;
+    border-radius: 17px;
+}
+.dealerHidden, .playerHits,  .dealerHits, .hiddenButton {
+    display: none;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+button {
+    margin: 5px;
+    width: 60px;
+    height: 40px;
+}
+
+.playerTot, .dealerTot{
+    position: relative;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding: 10px;
+}
+
+.scores {
+    margin: 20px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+}
+
+.winMsg {
+    padding: 15px;
+    text-align: center;
+    font-size: x-large;
+    color: 	#7d2727
+}
+
+.ptag {
+    border-bottom: solid black;
+}
+
+#back {
+    position: relative;
+    right: 8rem;
+    z-index: -1;
+}
+
+.playerHand {
+    position: relative;
+    left: 200px;
+}
+.dealerHand {
+    position: relative;
+    left: 100px;
+}
+
+
+
+#pHit1 {
+    position: relative;
+    right: 8rem;
+    z-index: 1;
+}
+#pHit2 {
+    position: relative;
+    right: 16rem;
+    z-index: 2;
+}
+#pHit3 {
+    position: relative;
+    right: 24rem;
+    z-index: 3;
+}
+#pHit4 {
+    position: relative;
+    right: 32rem;
+    z-index: 4;
+}
+#pHit5 {
+    position: relative;
+    right: 40rem;
+    z-index: 5;
+}
+#pHit6 {
+    position: relative;
+    right: 48rem;
+    z-index: 6;
+}
+#pHit7 {
+    position: relative;
+    right: 56rem;
+    z-index: 7;
+}
+
+
+#dHit1 {
+    position: relative;
+    right: 8rem;
+    z-index: 1;
+}
+#dHit2 {
+    position: relative;
+    right: 16rem;
+    z-index: 2;
+}
+#dHit3 {
+    position: relative;
+    right: 24rem;
+    z-index: 3;
+}
+#dHit4 {
+    position: relative;
+    right: 32rem;
+    z-index: 4;
+}
+#dHit5 {
+    position: relative;
+    right: 40rem;
+    z-index: 5;
+}
+#dHit6 {
+    position: relative;
+    right: 48rem;
+    z-index: 6;
+}
+#dHit7 {
+    position: relative;
+    right: 56rem;
+    z-index: 7;
+}
